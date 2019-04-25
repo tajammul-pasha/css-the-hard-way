@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  font-size: 16px;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.row {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.mini-header {
+  background-color: #eeeeee;
+  padding: 2px 0px;
+}
+
+.mheader-left-section {
+  float: left;
+  font-weight: 500;
+}
+
+.mheader-right-section {
+  float: right;
+  font-weight: 500;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.miniheader-span-text {
+  font-size: 10px;
+  margin: 8px;
+  margin-top: 50px;
+  cursor: pointer;
+}
