@@ -12,28 +12,47 @@
 
 .mini-header {
   background-color: #eeeeee;
+  color: #494949;
   padding: 2px 0px;
 }
 
+.table-parent {
+  display: table;
+  width: 100%;
+}
+
 .mheader-left-section {
-  float: left;
   font-weight: 500;
+  display: table-cell;
+  width: 50%;
+  text-align: left;
 }
 
 .mheader-right-section {
-  float: right;
   font-weight: 500;
+  display: table-cell;
+  width: 50%;
+  text-align: right;
 }
-
+/* 
 .clearfix:after {
   content: "";
   display: table;
   clear: both;
-}
+} */
 
 .miniheader-span-text {
   font-size: 10px;
-  margin: 8px;
-  margin-top: 50px;
+  margin-right: 8px;
+  /* margin-top: 50px; */
   cursor: pointer;
+}
+
+.main-header {
+  background-color: white;
+  height: 52px;
+  line-height: 52px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  color: #000000;
+  vertical-align: middle;
 }
