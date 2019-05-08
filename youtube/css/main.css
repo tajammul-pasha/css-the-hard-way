@@ -45,7 +45,8 @@ header {
   margin: 2em auto 2em 25%;
 }
 
-h1, .subhead {
+h1,
+.subhead {
   position: relative;
   z-index: 3;
 }
@@ -61,10 +62,10 @@ h1, .subhead {
   margin-top: 15%;
   padding: 4em 0 2em;
   border-top-left-radius: 40px;
-  transform: skewY(-2deg)
+  transform: skewY(-2deg);
 }
 
-.blue-container:before {
+/* .blue-container:before {
   content: "";
   width: 40px;
   height: 40px;
@@ -79,8 +80,30 @@ h1, .subhead {
   width: 80px;
   height: 80px;
   background-color: #fff;
-}
+} */
 
 .blue-container ul {
   transform: skewY(2deg);
+}
+
+.blue-container ul li {
+  margin-bottom: 3em;
+}
+
+.blue-container ul li p {
+  padding: 0 0.5em;
+}
+
+.blue-container img {
+  width: 14%;
+}
+
+.blue-container ul li:nth-child(3) img {
+  width: 8%;
+}
+
+.gray-container {
+  background: #f6f6f6;
+  padding: 4em 0 2em;
+  margin-top: -3%;
 }
